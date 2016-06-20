@@ -5,3 +5,11 @@ h1, h2{
 	color: #008080;
 
 }
+
+div, h1 {
+	padding: 20px;
+}
+
+div{
+	background-color: #add8e6;
+}
