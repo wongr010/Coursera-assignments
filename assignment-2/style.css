@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	font-family: Tahoma, sans-serif;
 }
@@ -5,11 +8,35 @@ h1, h2{
 	color: #008080;
 
 }
+h2{
+	float: right;
+	width: 20%;
+	border: 1px solid black;
+	text-align: center;
+	margin-right: 0px;
+	margin-top: 2px;
+	outline-offset: 0px;
+}
 
 div, h1 {
 	padding: 20px;
 }
+p{
+
+	float: left;
+	width: 70%;
+	height: 70%;
+	text-align: center;
+	clear: right;
+
+}
 
 div{
 	background-color: #add8e6;
+	float: left;
+	border: 5px solid black;
+	height: 200px;
+	width: 1300px;
+	padding: 10px;
+	margin: 10px;
 }
