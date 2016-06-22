@@ -12,12 +12,12 @@ h1, h2{
 
 h2{
 	float: right;
-	width: 50%;
-	border: 1px solid black;
-	text-align: center;
-	margin-right: 0px;
-	margin-top: 2px;
-	font-size: 1.25em;
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 0px;
+    font-size: 1.25em;
 
 }
 
@@ -28,16 +28,16 @@ h2{
 }
 p{
 
-	float: center;
 	width: 60%;
 	height: 70%;
 	text-align: center;
 	clear: right;
 	margin: 0px;
 	margin-left: 10px;
-	overflow: auto;
+	overflow: hidden;
 	margin-right: auto;
 	margin-left: auto;
+	display: block;
 
 }
 
@@ -46,7 +46,7 @@ div{
 	border: 1px solid black;
 	height: 300px;
 	width: 50%;
-	padding: 1%;
+	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1%;
