@@ -24,36 +24,47 @@ body{
   line-height: .75;
 } 
 
-.bar{
-	display: block;
-	width: 22px;
-	height: 2px;
-	border-radius: 1px;
-	border-bottom: double black;
-	background-color: black;
-	margin: 1px;
-
+.centered {
+	text-align: center;
 }
 
-.float-right{
-	right: auto;
-	left: 0;
+.Menu-items{
+	background-color: #32CD32;
 }
 
-.dropdown-container{
-	position: relative;
+.item-description{
+	margin: 1em;
+	padding-bottom: 1em;
 }
 
-.drop-menu {
-  position: absolute;
-  top: 200%; 
-  /*right: 0;
-  margin-left: -100px; /* More to the left */
-
+.padding{
+	padding: 0.2em;
+	padding-top: 0.5em;
+	margin: 0em;
 }
 
-.position{
-	position: relative;
-	float: right;
-	top: 20px;
+.top-margin{
+	margin-top: 10px;
+}
+/*******large devices*******/
+
+@media (min-width: 1200px) {
+	.hide-me {
+		visibility: hidden;
+	}
+}
+
+/******Medium devices*****/
+@media (min-width: 992px) and (max-width: 1199px){
+	.hide-me{
+		visibility: hidden;
+	}
+}
+
+/*******Small devices******/
+
+@media(min-width: 768px) and (max-width: 991px){
+	.hide-me{
+		visibility: hidden;
+	}
 }
