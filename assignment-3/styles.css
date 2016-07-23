@@ -1,0 +1,59 @@
+body{
+	font-size: 16px;
+	background-color: #90EE90;
+	font-color:#000080;
+	font-family: 'Nunito';
+
+}
+#header-nav{
+	background-color: #FFB6C1;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+} 
+
+.bar{
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	border-bottom: double black;
+	background-color: black;
+	margin: 1px;
+
+}
+
+.float-right{
+	right: auto;
+	left: 0;
+}
+
+.dropdown-container{
+	position: relative;
+}
+
+.drop-menu {
+  position: absolute;
+  top: 200%; 
+  /*right: 0;
+  margin-left: -100px; /* More to the left */
+
+}
+
+.position{
+	position: relative;
+	float: right;
+	top: 20px;
+}
